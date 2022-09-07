@@ -1,4 +1,56 @@
-*{
+* {
     background: whitesmoke;
-    font-family:Verdana, Geneva, Tahoma, sans-serif
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 2px;
+
+}
+
+#log {
+    width: 100px;
+    height: 100px;
+}
+
+#marca {
+    width: 150px;
+    height: 150px;
+}
+
+#producto{width: 250px;
+height: 200px;}
+
+.container-down{
+    display: flex;
+    flex-direction: row;
+}
+
+button{
+    width: 400px;
+    height: 400px;
+    margin-left: 15px;
+}
+
+#button-img{
+    width: 350px;
+    height: 350px;
+}
+
+.buttons{
+    width: 900px;
+    display: flex;
+flex-wrap: wrap;}
+
+.container-top {
+    width: 1850px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.container-top h2 {
+    color: blueviolet;
+}
+
+.pr {
+    display: flex;
+    flex-direction: row;
 }
