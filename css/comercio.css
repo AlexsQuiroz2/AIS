@@ -1,9 +1,56 @@
 * {
-    background: whitesmoke;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding: 2px;
 
 }
+                                            /*-inicio header-*/
+
+header {
+    background-color: blue;
+    height: 55px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 20px 80px;
+}
+
+#Enlaces button{
+    color: white;
+    background-color: rgb(51, 131, 255);
+    text-decoration: none;
+    width: 100px;
+    height: 40px;
+}
+
+#Enlaces {
+    width: 100px;
+    height: 40px;
+    margin-left: 15px;
+    margin-top: -20px;
+}
+
+#Enlaces button:hover {
+    background-color: rgb(51, 113, 255);
+}
+
+#Search input{
+    margin-right: 80px;
+    width: 250px;
+}
+
+#Search {
+    margin-top: -10px;
+
+}
+
+  /*-fin header-*/
+
+.all{
+    margin-top: 50px;
+}
+
 
 #log {
     width: 100px;
