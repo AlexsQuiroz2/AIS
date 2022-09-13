@@ -24,7 +24,7 @@ nav {
 
 #Enlaces button{
     color: white;
-    background-color: rgb(51, 131, 255);
+    background-color: #47B5FF;
     text-decoration: none;
     width: 100px;
     height: 40px;
@@ -54,7 +54,7 @@ nav {
   /*-fin header-*/
 
 body{
-    background-color:#4570817c ;
+    background-color: #113e5ad3 ;
 }
 
 
@@ -63,7 +63,8 @@ body{
     margin-left: 70px;
     margin-bottom: 10px;
    width: 1735px;
-    background-color: white;
+    background-color: rgba(179, 213, 221, 0.788);
+    opacity: 1;
 }
 
 
@@ -95,6 +96,7 @@ height: 200px;}
 }
 
 button{
+    background-color: #113e5ad3 ;
     width: 400px;
     height: 400px;
     margin-left: 15px;
