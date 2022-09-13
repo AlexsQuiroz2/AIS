@@ -6,14 +6,20 @@
                                             /*-inicio header-*/
 
 header {
-    background-color: blue;
+    margin-top: 7px;
+    margin-left: 110px;
+    margin-bottom: 10px;
+    background-color: #06283D;
     height: 55px;
+    width: 1500px;
+    border-radius: 20px;
 }
 
 nav {
     display: flex;
     flex-direction: row-reverse;
     margin: 20px 80px;
+    justify-content: space-between;
 }
 
 #Enlaces button{
@@ -47,12 +53,17 @@ nav {
 
   /*-fin header-*/
 
-
-
+body{
+    background-color:#4570817c ;
+}
 
 
 .all{
-    margin-top: 50px;
+    border-radius: 50px;
+    margin-left: 70px;
+    margin-bottom: 10px;
+   width: 1735px;
+    background-color: white;
 }
 
 
@@ -64,6 +75,15 @@ nav {
 #marca {
     width: 150px;
     height: 150px;
+}
+
+.container-products{
+    margin-bottom: 15px;
+    margin-left: 10px;
+ 
+    width: 750px;
+    height: 800px;
+    border-radius: 20px;
 }
 
 #producto{width: 250px;
@@ -78,7 +98,9 @@ button{
     width: 400px;
     height: 400px;
     margin-left: 15px;
-    border-radius: 8px;
+    border: none;
+    border-radius: 15px;
+    
 }
 
 #button-img{
@@ -87,15 +109,18 @@ button{
 }
 
 .buttons{
+    margin-left: 80px;
     width: 900px;
     display: flex;
 flex-wrap: wrap;}
 
 .container-top {
-    width: 1850px;
+    justify-content: space-evenly;
+    width: 1500px;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    margin-left: 120px;
+    margin-bottom: 50px;
 }
 
 .container-top h2 {
